@@ -1,0 +1,43 @@
+Table Scripts:
+create Table EmployeelogDetails
+(
+Id int identity(1,1),
+EmployeeId int,
+LogType varchar(3),
+logdate datetime
+)
+
+insert into EmployeelogDetails values(1,'IN','2023-09-15 09:38:50.017')
+insert into EmployeelogDetails values(2,'IN','2023-09-15 09:40:30.630')
+insert into EmployeelogDetails values(3,'IN','2023-09-15 09:41:57.210')
+
+
+insert into EmployeelogDetails values(1,'OUT','2023-09-15 12:45:25.168')
+insert into EmployeelogDetails values(1,'IN','2023-09-15 13:18:44.560')
+insert into EmployeelogDetails values(2,'OUT','2023-09-15 13:10:37.458')
+insert into EmployeelogDetails values(3,'OUT','2023-09-15 13:18:09.301')
+insert into EmployeelogDetails values(2,'IN','2023-09-15 13:39:41.227')
+insert into EmployeelogDetails values(3,'IN','2023-09-15 13:44:38.529')
+
+
+insert into EmployeelogDetails values(1,'OUT','2023-09-15 18:33:38.357')
+insert into EmployeelogDetails values(2,'OUT','2023-09-15 18:41:53.648')
+insert into EmployeelogDetails values(3,'OUT','2023-09-15 18:46:17.211')
+------------------------------------------------------------------------
+
+insert into EmployeelogDetails values(1,'IN','2023-09-16 09:25:25.224')
+insert into EmployeelogDetails values(2,'IN','2023-09-16 09:50:31.447')
+insert into EmployeelogDetails values(3,'IN','2023-09-16 09:36:41.317')
+
+
+insert into EmployeelogDetails values(1,'OUT','2023-09-16 13:02:40.930')
+insert into EmployeelogDetails values(1,'IN','2023-09-16 13:44:20.258')
+insert into EmployeelogDetails values(2,'OUT','2023-09-16 13:08:11.860')
+insert into EmployeelogDetails values(3,'OUT','2023-09-16 13:25:19.110')
+insert into EmployeelogDetails values(2,'IN','2023-09-16 13:52:11.387')
+insert into EmployeelogDetails values(3,'IN','2023-09-16 14:08:27.210')
+
+
+insert into EmployeelogDetails values(1,'OUT','2023-09-16 18:25:10.227')
+insert into EmployeelogDetails values(2,'OUT','2023-09-16 18:49:29.399')
+insert into EmployeelogDetails values(3,'OUT','2023-09-16 18:38:29.453')
